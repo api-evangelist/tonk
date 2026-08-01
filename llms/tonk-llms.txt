@@ -1,0 +1,39 @@
+# Tonk
+
+> Tonk (by Tonk Labs) is a containerized format, host environment, and protocol for
+> multiplayer, local-first software you keep and share like files. A .tonk bundle packages
+> both an application and its data into a single self-contained file that runs anywhere,
+> works offline, and stays under user control. Under the hood it uses a document-based
+> virtual file system built on Automerge CRDTs, a browser/WebAssembly runtime compiled from
+> Rust, and peer-to-peer synchronization via WebSocket relays. Tonk is open source (MIT).
+> It is not a hosted REST API — it is a toolkit, runtime, and set of client libraries.
+
+## Overview
+- Website: https://tonk.xyz/
+- Documentation: https://tonk-labs.github.io/tonk
+- GitHub organization: https://github.com/tonk-labs
+- Main repository (tonk): https://github.com/tonk-labs/tonk
+- Discord community: https://discord.gg/cHqkYpRE
+
+## Docs
+- Overview: https://tonk-labs.github.io/tonk/overview.html
+- Quickstart: https://tonk-labs.github.io/tonk/quickstart.html
+- Architecture: https://tonk-labs.github.io/tonk/architecture.html
+- Virtual File System (VFS): https://tonk-labs.github.io/tonk/vfs.html
+- Bundle Format: https://tonk-labs.github.io/tonk/bundles.html
+
+## Packages (npm, @tonk scope — first-party)
+- @tonk/core — Tonk sync engine + bundling: https://www.npmjs.com/package/@tonk/core
+- @tonk/cli — Tonk stack command line utility: https://www.npmjs.com/package/@tonk/cli
+- @tonk/create — bootstrap a Tonk app: https://www.npmjs.com/package/@tonk/create
+- @tonk/server — server package for Tonk apps: https://www.npmjs.com/package/@tonk/server
+- @tonk/keepsync — reactive sync engine framework: https://www.npmjs.com/package/@tonk/keepsync
+- @tonk/relay — WebSocket sync relay server: https://www.npmjs.com/package/@tonk/relay
+- @tonk/tonk-auth — auth library (Clerk): https://www.npmjs.com/package/@tonk/tonk-auth
+- @tonk/tonk-mcp — MCP worker (Obsidian integration): https://www.npmjs.com/package/@tonk/tonk-mcp
+- @tonk/spec — TypeScript specification library: https://www.npmjs.com/package/@tonk/spec
+
+## Notes
+- No hosted REST API, OpenAPI specification, or OAuth server is published.
+- Core is Rust compiled to WebAssembly; apps run in a browser-based host runtime.
+- Authentication for hosted Tonk apps is handled via @tonk/tonk-auth (Clerk).

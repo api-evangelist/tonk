@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/package/@tonk/cli
+name: Tonk CLI
+description: >-
+  The Tonk stack command line utility (@tonk/cli) — the first-party CLI for
+  scaffolding, building, bundling and serving Tonk applications. Distributed on npm
+  with per-platform binaries (e.g. @tonk/cli-linux-x64).
+binary: tonk
+package: "@tonk/cli"
+version: 0.4.0
+install:
+  - method: npm
+    command: npm install -g @tonk/cli
+  - method: npx
+    command: npx @tonk/cli
+docs: https://tonk-labs.github.io/tonk/quickstart.html
+notes: >-
+  A detailed per-command reference is not published on the public docs site as of this
+  pass; the CLI's role (scaffold, bundle, run/dev) is documented via the Quickstart.
+  Command groups below are drawn from the Quickstart flow and package purpose — treat
+  as indicative, not an exhaustive verbatim command list.
+commands:
+  - group: create
+    summary: Scaffold a new Tonk app on the stack (also exposed via @tonk/create).
+  - group: bundle
+    summary: Build a self-contained .tonk bundle (application + data) from a project.
+  - group: dev
+    summary: Run a Tonk app locally in the browser-based host runtime.

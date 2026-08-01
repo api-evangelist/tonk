@@ -1,0 +1,82 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/org/tonk
+notes: >-
+  First-party client libraries for the Tonk stack are published under the @tonk npm
+  scope by Tonk Labs (github.com/tonk-labs). The unscoped npm package `tonk` is an
+  UNRELATED project ("Telegram Open Network SmartContract Development Kit") and is NOT
+  included here. Tonk's core engine is Rust compiled to WebAssembly; the distributed
+  artifacts are the npm packages below.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@tonk/core"
+    version: 0.1.6
+    url: https://www.npmjs.com/package/@tonk/core
+    install: npm install @tonk/core
+    description: Core library providing the Tonk sync engine and bundling capabilities.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@tonk/cli"
+    version: 0.4.0
+    url: https://www.npmjs.com/package/@tonk/cli
+    install: npm install -g @tonk/cli
+    description: The Tonk stack command line utility.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@tonk/create"
+    version: 0.5.2
+    url: https://www.npmjs.com/package/@tonk/create
+    install: npm create @tonk
+    description: Bootstrap apps on the Tonk stack.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@tonk/server"
+    version: 0.3.2
+    url: https://www.npmjs.com/package/@tonk/server
+    install: npm install @tonk/server
+    description: Server package for Tonk applications.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@tonk/keepsync"
+    version: 0.6.1
+    url: https://www.npmjs.com/package/@tonk/keepsync
+    install: npm install @tonk/keepsync
+    description: A reactive sync engine framework for use with Tonk apps.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@tonk/relay"
+    version: 0.1.1
+    url: https://www.npmjs.com/package/@tonk/relay
+    install: npm install @tonk/relay
+    description: Tonk relay server (WebSocket sync relay for peer-to-peer document sync).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@tonk/tonk-auth"
+    version: 0.2.2
+    url: https://www.npmjs.com/package/@tonk/tonk-auth
+    install: npm install @tonk/tonk-auth
+    description: Authentication library for Tonk apps (Clerk integration).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@tonk/spec"
+    version: 0.1.0
+    url: https://www.npmjs.com/package/@tonk/spec
+    install: npm install @tonk/spec
+    description: TypeScript specification library for Tonk.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@tonk/tonk-mcp"
+    version: 1.0.1
+    url: https://www.npmjs.com/package/@tonk/tonk-mcp
+    install: npm install @tonk/tonk-mcp
+    description: Model Context Protocol (MCP) worker service for Tonk (Obsidian integration).
+    official: true

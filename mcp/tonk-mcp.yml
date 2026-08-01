@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://www.npmjs.com/package/@tonk/tonk-mcp
+server:
+  name: tonk-mcp
+  package: "@tonk/tonk-mcp"
+  version: 1.0.1
+  transport: stdio
+  install: npm install @tonk/tonk-mcp
+description: >-
+  First-party Model Context Protocol (MCP) worker service published by Tonk Labs under
+  the @tonk npm scope. It provides MCP support for the Tonk + Obsidian integration
+  (exposing Tonk-managed knowledge/data to MCP-capable agents). This is an integration
+  worker rather than a general REST-API MCP wrapper — Tonk has no hosted REST API/OpenAPI
+  from which a broader tool list could be derived.
+tools: []
+notes: >-
+  Tool list not enumerated: the package ships as an Obsidian worker and Tonk publishes no
+  OpenAPI to derive candidate tools from. Captured as a real, first-party published MCP
+  package.
