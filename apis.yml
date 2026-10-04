@@ -48,7 +48,7 @@ tags:
 - Local-First
 - CRDT
 - Collaboration
-- Open-Source
+- Open Source
 - Data Sync
 - WebAssembly
 tags_raw:
@@ -60,6 +60,7 @@ tags_raw:
 - Open Source
 - Data Sync
 - WebAssembly
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
